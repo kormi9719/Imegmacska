@@ -8,33 +8,22 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class LoginActivity extends AppCompatActivity {
+public class RegistrationActivity extends AppCompatActivity {
 
-    private EditText mUsername, mPassword;
-    private Button mLogin, mRegister;
-
+    private Button mRegister;
+    private EditText mUsername, mPassword, mPasswordAgain, mEmail;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_registration);
 
-        mLogin = findViewById(R.id.login);
-        mRegister = findViewById(R.id.l_sign_up);
-
-        mLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        });
+        mRegister = findViewById(R.id.sign_up);
 
         mRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LoginActivity.this, RegistrationActivity.class);
+                Intent intent = new Intent(RegistrationActivity.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -50,6 +39,5 @@ public class LoginActivity extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
     }
-
 
 }
