@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "372756214077",
+    "firebase_url": "https://imegmacska.firebaseio.com",
+    "project_id": "imegmacska",
+    "storage_bucket": "imegmacska.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372756214077:android:dfe720acefa6beb27a1554",
+        "android_client_info": {
+          "package_name": "hu.projekteszkozok.imegmacska"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372756214077-po6jkj5v3m24jjg85mt62hrv27na0guh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hu.projekteszkozok.imegmacska",
+            "certificate_hash": "6f1cce512dd2e656c7629db8a22d8f2c7f0c1e99"
+          }
+        },
+        {
+          "client_id": "372756214077-2lpvg58v2mfemb237mron3c71ltl64bl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2bKK5BMWcHRtLCShjIc4V-iUNj50p13k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372756214077-2lpvg58v2mfemb237mron3c71ltl64bl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

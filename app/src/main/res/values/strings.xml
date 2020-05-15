@@ -7,4 +7,6 @@
     <string name="password_again">Jelszó ismét</string>
     <string name="not_registered">Nem regisztrált még?</string>
     <string name="email">Email cím</string>
+    <string name="like">Akarom</string>
+    <string name="dislike">Nem Tetszik</string>
 </resources>
